@@ -52,3 +52,9 @@ This data consist of 23 columns and 99743 rows
 **Dropoff Centroid Longitude** - Dropoff Longitude and it is an float
 
 **Dropoff Centroid  Location** - Dropoff Location and it is an object
+
+
+### Exploratory Data Analysis
+I observed Pickup Community Area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal
+
+I considered the trip as valid if Trip Miles is greater than zero
