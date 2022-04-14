@@ -4,7 +4,6 @@ https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data
 ###Abstract
 In our every day life we relay on Taxis for Transportation. The cost of Taxi Trips frequently increase or decrease based on factors like distance, date, time, location which cannot be predicted. In this project my traget variable will be payment method. Mode of payment is also depend on various factors. My goal is to predict the payment type with the help of Chicago data. As my data is very huge I am using the chunk of it.
 
-
 ### Data Description
 This data consist of 23 columns and 99743 rows
 
