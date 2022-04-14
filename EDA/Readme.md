@@ -19,6 +19,7 @@ Dropoff Census Tract - A unique Drop off code given in each country and it is re
 Pickup Community Area - Name of the area where the pickup has been requested and it is a float datatype
 Dropoff Community Area - Name of the are where the Dropoff has been requested and it is a float datatype
 Fare - Cost for a Trip and it is float datatype
+
 Tips - Tip amount given to the driver and it is a float 
 Tolls - Tolls fare represented as float datatype
 Extras - Extra amount charged and it is repsented as a float
