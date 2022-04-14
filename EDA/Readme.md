@@ -1,7 +1,7 @@
 ### Data
 https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data
 
-###Abstract
+### Abstract
 In our every day life we relay on Taxis for Transportation. The cost of Taxi Trips frequently increase or decrease based on factors like distance, date, time, location which cannot be predicted. In this project my traget variable will be payment method. Mode of payment is also depend on various factors. My goal is to predict the payment type with the help of Chicago data. As my data is very huge I am using the chunk of it.
 
 ### Data Description
@@ -57,5 +57,9 @@ This data consist of 23 columns and 99743 rows
 ### Exploratory Data Analysis
 I observed Pickup Community Area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal
 
-I considered the trip as valid if Trip Miles is greater than zero. Since 
+I considered the trip as valid if Trip Miles is greater than zero. I have found Trip Miles has values 0, so I have removed those rows and performed future analysis   
+
+Trip fare has more values under 100 so i have considered this as an outiler and eliminated the remaning values.
+
+I have observed the minimun fare of the trip as 0, still I considered it because their may be internal reasons like by applying coupons,or some taxis have first ride options so it might be in that case.
 
