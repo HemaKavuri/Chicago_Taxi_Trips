@@ -65,3 +65,7 @@ I considered the trip as valid if Trip Miles is greater than zero. So,i have fou
 Trip fare has more values under 100 so i have considered remaining values as an outlier and eliminated them.
 
 I have observed the minimun fare of the trip as 0, still i considered it because their may be internal reasons like by applying coupons, or some taxis have first ride options so it might be in that case.
+
+### Future Work
+I will be using this dataset for modeling. In future work i will be creating pipeline for both numerical and categorical. Using this modeling i will be predicting my target variable.   
+
