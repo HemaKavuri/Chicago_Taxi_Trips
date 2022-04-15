@@ -59,9 +59,9 @@ This data consist of 23 columns and 99743 rows
 
 
 ### Exploratory Data Analysis
-I observed that Pickup Community area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal
+I observed that Pickup Community area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal.
 
-I considered the trip as valid if Trip Miles is greater than zero. So,i have found Trip Miles having 0 values , so I have removed those rows and performed future analysis   
+I considered the trip as valid if Trip Miles is greater than zero. So,i have found Trip Miles having 0 values , so I have removed those rows and performed future analysis.   
 
 Trip fare has more values under 100 so i have considered remaining values as an outlier and eliminated them.
 
