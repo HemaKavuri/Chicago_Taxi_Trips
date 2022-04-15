@@ -7,59 +7,58 @@ In our every day life we relay on Taxis for Transportation. The cost of Taxi Tri
 ### Data Description
 This data consist of 23 columns and 99743 rows
 
-**Trip Id** - This is a code given to every trip and it is represented as an object
+**Trip Id** - This is a unique code given to every trip and it's data type is object
 
-**Taxi Id** - This is a code given to every vechicle and it is represented as an object
+**Taxi Id** - This is a unique code given to every vechicle and it's data type is object
 
-**Trip Start** Timestamp - The Date and Time at Starting of a Trip and it is represented as an object
+**Trip Start Timestamp** - The Date and Time at Starting of a Trip and it's data type is object
 
-**Trip End Timestamp** - The Date and Time at the end of a Trip and it is represented as an object
+**Trip End Timestamp** - The Date and Time at the end of a Trip and it's data type is object
 
-**Trip Seconds** - Duartion of the Trip measured in Seconds and it is represented as a float
+**Trip Seconds** - Duartion of the Trip measured in Seconds and it's data type is float
 
-**Trip Miles** - Distance of the Trip measured in Miles and it is represented as a float
+**Trip Miles** - Distance of the Trip measured in Miles and it's data type is float
 
-**Pickup Census Tract** - A unique pick up code given in each country and it is represented as a float
+**Pickup Census Tract** - A unique pick up code given in each country and it's data type is float
 
-**Dropoff Census Tract** - A unique Drop off code given in each country and it is represented as a float
+**Dropoff Census Tract** - A unique Drop off code given in each country and it's data type is float
 
-**Pickup Community Area** - Name of the area where the pickup has been requested and it is a float datatype
+**Pickup Community Area** - Name of the area where the pickup has been requested and it's data type is float
 
-**Dropoff Community Area** - Name of the are where the Dropoff has been requested and it is a float datatype
+**Dropoff Community Area** - Name of the are where the Dropoff has been requested and it's data type is float
 
-**Fare** - Cost for a Trip and it is float datatype
+**Fare** - Cost for a Trip and it's data type is float
 
-**Tips** - Tip amount given to the driver and it is a float 
+**Tips** - Tip amount given to the driver and it's data type is float 
 
-**Tolls** - Tolls fare represented as float datatype
+**Tolls** - Tolls fare it's data type is float
 
-**Extras** - Extra amount charged and it is repsented as a float
+**Extras** - Extra amount charged and it's data type is float
 
-**Trip Total** - sum of Fare,Tips,Tolls,Extras and it is float 
+**Trip Total** - sum of Fare,Tips,Tolls,Extras and it's data type is float 
 
-**Payment Type** - Mode of payment done for a ride and it is an object
+**Payment Type** - Mode of payment done for a ride and it's data type is object
 
-**Company** - Name of Taxi service provider and it is an object
+**Company** - Name of Taxi service provider and it's data type is object
 
-**Pickup Centroid Latitude** - Pickup Laititue and it is an float
+**Pickup Centroid Latitude** - Pickup Laititue and it's data type is float
 
-**Pickup Centroid Longitude** - Pickup Longitude and it is an float
+**Pickup Centroid Longitude** - Pickup Longitude and it's data type is float
 
-**Pickup Centroid Location** - Pickup Location and it is an object
+**Pickup Centroid Location** - Pickup Location and it's data type is object
 
-**Dropoff Centroid Latitude** - Dropoff Laititue and it is an float
+**Dropoff Centroid Latitude** - Dropoff Laititue and it's data type is float
 
-**Dropoff Centroid Longitude** - Dropoff Longitude and it is an float
+**Dropoff Centroid Longitude** - Dropoff Longitude and it's data type is float
 
-**Dropoff Centroid  Location** - Dropoff Location and it is an object
+**Dropoff Centroid  Location** - Dropoff Location and it's data type is object
 
 
 ### Exploratory Data Analysis
-I observed Pickup Community Area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal
+I observed that Pickup Community area and Dropoff Community area seem's to be similar through visualization graphs. But when i correlate it they seem's to be normal
 
-I considered the trip as valid if Trip Miles is greater than zero. I have found Trip Miles has values 0, so I have removed those rows and performed future analysis   
+I considered the trip as valid if Trip Miles is greater than zero. So,i have found Trip Miles having 0 values , so I have removed those rows and performed future analysis   
 
-Trip fare has more values under 100 so i have considered this as an outiler and eliminated the remaning values.
+Trip fare has more values under 100 so i have considered remaining values as an outlier and eliminated them.
 
-I have observed the minimun fare of the trip as 0, still I considered it because their may be internal reasons like by applying coupons,or some taxis have first ride options so it might be in that case.
-
+I have observed the minimun fare of the trip as 0, still i considered it because their may be internal reasons like by applying coupons, or some taxis have first ride options so it might be in that case.
