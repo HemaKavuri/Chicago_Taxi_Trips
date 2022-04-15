@@ -2,7 +2,7 @@
 https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data
 ## Chunk Data File
 
-https://drive.google.com/file/d/1Af7G4fx9UYKjFTpHQqVaAHHiDGcDqsk8/view?usp=sharing
+https://drive.google.com/file/d/1CKyRnKlJlPha14OeAT3HE4NY12jke0_O/view?usp=sharing
 
 ### Abstract
 In our every day life we relay on Taxis for Transportation. The cost of Taxi Trips frequently increase or decrease based on factors like distance, date, time, location which cannot be predicted. In this project my traget variable will be payment method. Mode of payment is also depend on various factors. My goal is to predict the payment type with the help of Chicago data. As my data is very huge I am using the chunk of it.
