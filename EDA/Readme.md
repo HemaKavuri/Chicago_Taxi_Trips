@@ -67,6 +67,31 @@ Trip fare has more values under 100 so i have considered remaining values as an 
 
 I have observed the minimun fare of the trip as 0, still i considered it because their may be internal reasons like by applying coupons, or some taxis have first ride options so it might be in that case.
 
+### Feature Selection
+*  Our main goal is to predict payment method before a trip is created, so we will consider only our target variable 'Payment Type'.
+*   We found some null values in census . so i will drop the columns. 
+* pickup and drop of area is easier to analize instead of latitude and longitude so i am dropping thoes columns also.
+
+### Results
+![image](https://user-images.githubusercontent.com/92277491/167513071-091639be-bd8a-4eaf-a8ef-b8a85905927d.png)
+
+I have considered f1-score and AUC as the metrics because, my class is imbalance so to evaluate and imbalance class f1-score is a best metrics. I also considered AUC score as a metrics because "Cash" or "Non-Cash" transcations are equally important and it depends on each individual. 
+
+### Model Selection
+ We have selected Logistic Regession as best model because it has a F1-score of 97.1% and Roc_AUC score is 97.3%
+ 
+### Summary
+* Logistic Regression performed better than decision tree and stochastic gradient descent with 97.1% of F1-score.
+* For the given dataset we have seen that majority of people choose cash payments and credit card transacations.
+* Most of the trips are done on Sundays in a week and on the second half in a month.
+* Prices for most of trips are low below 20$.
+* In a day most of trips are taken place in evening time around 6 p.m.
+* We have observed that pick up and drop of community area are same , so we can say that most people are travelling for short distance.
+
 ### Future Work
-I will be using this dataset for modeling. In future work i will be creating pipeline for both numerical and categorical. Using this modeling i will be predicting my target variable.   
+* We have only used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
+* We can use more algorithms like svm,random forest, Knn, neural networks, but this may also takes more time to evaluate.
+* Improving features for modeling can also give us a better perfomance. 
+
+
 
