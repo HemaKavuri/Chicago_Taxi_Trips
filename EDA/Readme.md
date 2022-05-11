@@ -69,8 +69,8 @@ I have observed the minimun fare of the trip as 0, still i considered it because
 
 ### Feature Selection
 *  Our main goal is to predict payment method before a trip is created, so we will consider only our target variable 'Payment Type'.
-*   We found some null values in census . so i will drop the columns. 
-* pickup and drop of area is easier to analize instead of latitude and longitude so i am dropping thoes columns also.
+*   We found some null values in census . So i will drop the columns. 
+* Pickup and drop of area is easier to analyze instead of latitude and longitude so i am dropping thoes columns also.
 
 ### Results
 ![image](https://user-images.githubusercontent.com/92277491/167513071-091639be-bd8a-4eaf-a8ef-b8a85905927d.png)
@@ -89,7 +89,7 @@ I have considered f1-score and AUC as the metrics because, my class is imbalance
 * I have observed that pick up and drop of community area are same , so we can say that most people are travelling for short distance.
 
 ### Future Work
-* I  used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
+* I have used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
 * We can use more algorithms like svm,random forest, Knn, neural networks, but this may also takes more time to evaluate.
 * Improving features for modeling can also give us a better performance. 
 * Ensemble methods combine several models to create a better one. Using this will gives us better and less overfitting performance.
