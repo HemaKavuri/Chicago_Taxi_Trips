@@ -91,7 +91,7 @@ I have considered f1-score and AUC as the metrics because, my class is imbalance
 ### Future Work
 * We have only used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
 * We can use more algorithms like svm,random forest, Knn, neural networks, but this may also takes more time to evaluate.
-* Improving features for modeling can also give us a better perfomance. 
+* Improving features for modeling can also give us a better performance. 
 * Ensemble methods combine several models to create a better one. Using this will gives us better and less overfitting performance.
 
 
