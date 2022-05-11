@@ -78,7 +78,7 @@ I have observed the minimun fare of the trip as 0, still i considered it because
 I have considered f1-score and AUC as the metrics because, my class is imbalance so to evaluate and imbalance class f1-score is a best metrics. I also considered AUC score as a metrics because "Cash" or "Non-Cash" transcations are equally important and it depends on each individual. 
 
 ### Model Selection
- We have selected Logistic Regession as best model because it has a F1-score of 97.1% and Roc_AUC score is 97.3%
+ I have selected Logistic Regession as best model because it has a F1-score of 97.1% and Roc_AUC score is 97.3%
  
 ### Summary
 * Logistic Regression performed better than decision tree and stochastic gradient descent with 97.1% of F1-score.
@@ -86,10 +86,10 @@ I have considered f1-score and AUC as the metrics because, my class is imbalance
 * Most of the trips are done on Sundays in a week and on the second half in a month.
 * Prices for most of trips are low below 20$.
 * In a day most of trips are taken place in evening time around 6 p.m.
-* We have observed that pick up and drop of community area are same , so we can say that most people are travelling for short distance.
+* I have observed that pick up and drop of community area are same , so we can say that most people are travelling for short distance.
 
 ### Future Work
-* We have only used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
+* I  used chunk data for faster analysis, to improve the above models we can use more data which may leads to increase performance and score values.
 * We can use more algorithms like svm,random forest, Knn, neural networks, but this may also takes more time to evaluate.
 * Improving features for modeling can also give us a better performance. 
 * Ensemble methods combine several models to create a better one. Using this will gives us better and less overfitting performance.
